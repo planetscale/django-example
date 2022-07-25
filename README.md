@@ -37,7 +37,7 @@ pip install -r ./requirements.txt
 3. Modify your `.env` file in your Django app with the values from the previous step:
 
 ```
-DB_DATABASE=
+DB_NAME=
 DB_USER=
 DB_PASSWORD=
 DB_HOST=
