@@ -65,9 +65,10 @@ DATABASES = {
 
 ## Run migrations and seeder
 
-1. Run the migrations and seeder with:
+1. Change directory and run the migrations and seeder with:
 
 ```bash
+cd mysite/
 python manage.py migrate
 ```
 
