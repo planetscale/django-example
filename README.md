@@ -69,7 +69,7 @@ DATABASES = {
 
 ```bash
 cd mysite/
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 ## Start the application
@@ -77,7 +77,7 @@ python manage.py migrate
 1. Start the server with:
 
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 2. Navigate to [`localhost:8000/products`](http://localhost:8000/products) to see a list of data from the products table. 
