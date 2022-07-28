@@ -2,7 +2,7 @@
 
 This sample application demonstrates how to connect to a PlanetScale MySQL database, create and run migrations, seed the database, and display the data.
 
-For the full tutorial, see the [Django PlanetScale documentation](https://docs.planetscale.com/tutorials/connect-django-app).
+For the full tutorial, see the [Django PlanetScale documentation](https://planetscale.com/docs/tutorials/connect-django-app).
 
 ## Set up the Django app
 
@@ -45,7 +45,7 @@ DB_PORT=
 MYSQL_ATTR_SSL_CA=
 ```
 
-> **Note**: The value for `MYSQL_ATTR_SSL_CA` may differ [depending on your operating system](https://docs.planetscale.com/reference/secure-connections#ca-root-configuration).
+> **Note**: The value for `MYSQL_ATTR_SSL_CA` may differ [depending on your operating system](https://planetscale.com/docs/reference/secure-connections#ca-root-configuration).
 
 4. In the `mysite/settings.py` file, scroll down and look for the `DATABASES` object. Replace it with the following:
 
@@ -65,10 +65,11 @@ DATABASES = {
 
 ## Run migrations and seeder
 
-1. Run the migrations and seeder with:
+1. Change directory and run the migrations and seeder with:
 
 ```bash
-python manage.py migrate
+cd mysite/
+python3 manage.py migrate
 ```
 
 ## Start the application
@@ -76,7 +77,7 @@ python manage.py migrate
 1. Start the server with:
 
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 2. Navigate to [`localhost:8000/products`](http://localhost:8000/products) to see a list of data from the products table. 
