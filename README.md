@@ -1,5 +1,7 @@
 # Learn how to integrate PlanetScale with a sample Django application
 
+> **Note:** This tutorial targets PlanetScale Vitess/MySQL. PlanetScale also offers managed Postgres. For more information, see the [PlanetScale Postgres documentation](https://planetscale.com/docs/postgres).
+
 This sample application demonstrates how to connect to a PlanetScale MySQL database, create and run migrations, seed the database, and display the data.
 
 For the full tutorial, see the [Django PlanetScale documentation](https://planetscale.com/docs/tutorials/connect-django-app).
